@@ -27,6 +27,19 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    { 
+
+      resolve: 'gatsby-source-sanity',
+      
+       options: {
+      
+       projectId: 'qvcf1ria',  
+      
+       dataset: 'production',
+       token: process.env.skbJoIOPjws94y9ARkGo7RLdCOF1xvzfhItJYLkQjtDBGQdEcyREkioldpG2cqZw18CNYiCByhQ5utF7flVXN84UL9n0CZH2KGkeWArDSspIw8AnLp1eIwbjnfck44rpyNIlk1vK2i3rEZTglhCAtjDIok6mZvUpSbZrP5L8ksFpfA3FPzr4,
+       }, 
+      
+      },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

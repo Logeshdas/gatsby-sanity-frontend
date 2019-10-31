@@ -1,0 +1,92 @@
+.home-slider {
+    background: #f5f5f5;
+  }
+  
+  .home-slider .container {
+    padding-top: 3rem;
+  }
+  
+  .carousel.carousel-slider .control-arrow:hover {
+    background: transparent;
+  }
+  .carousel .control-dots .dot {
+    box-shadow: none;
+    /* background: #39b54a; */
+  }
+  
+  .carousel .slide {
+    background: white;
+  }
+  
+  .carousel .slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel .slide a .placeholder {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .promo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .promo-container .image {
+    width: 20%;
+  }
+  
+  .promo-container .details {
+    width: 80%;
+    text-align: left;
+  }
+  
+  .promo-container .details h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .promo-container .details h1 span {
+    display: block;
+    font-weight: 300;
+    font-size: 1.6rem;
+  }
+  
+  .promo-container .offer {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .offer-name {
+    text-transform: uppercase;
+  }
+  
+  @media only screen and (min-width: 560px) {
+  }
+  
+  @media only screen and (min-width: 768px) {
+  }
+  
+  @media only screen and (min-width: 992px) {
+  }
+  
+  @media only screen and (min-width: 1200px) {
+  }
+  
